@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Even and Odd</title>
+</head>
+<body>
+</body>
+<script>
+    function checkNumber(x)
+    {
+        if(x % 2 == 0)
+        {
+            console.log("The Number Entered is" + x + "The No. is Even");
+        }
+
+        else
+        {
+            console.log("The Number Entered is" +  x +  "The No. is Odd" );
+        }
+    }
+
+    checkNumber(23);
+</script>
+</html>

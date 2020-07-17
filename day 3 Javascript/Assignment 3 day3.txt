@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grade</title>
+</head>
+<body>
+    
+<script>
+   function marks(x)
+   {
+       if(x<=100 && x>=70)
+       {
+           console.log("Grade is A");
+       }
+       else if(x<70 && x>=40)
+       {
+           console.log("Grade is B");
+       }
+       else if(x<40 && x>=0)
+       {
+           console.log("Grade is C");
+       }
+   }
+   marks(50);
+
+//    using ternary operator
+ function score(y)
+ {
+     let scoreno = (y<=100 && y>=70) ? ("Grade is A") : (y<70 && y>=40) ? ("Grade is B") : ("Grade is C");
+     console.log( scoreno);
+ }
+ score(80);
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Os Name and Version</title>
+</head>
+<body>
+    
+<script>
+   function checkInfo(osname, version)
+   {
+      console.log("The OS name is" + osname + "and version is " + version );
+   }
+   
+</script>
+</body>
+</html>
